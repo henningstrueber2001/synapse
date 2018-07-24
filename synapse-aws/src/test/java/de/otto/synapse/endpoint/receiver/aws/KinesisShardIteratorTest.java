@@ -268,9 +268,8 @@ public class KinesisShardIteratorTest {
         shardIterator.next();
 
         // then
-        verify(kinesisClient, times(6)).getRecords(any(GetRecordsRequest.class));
+        verify(kinesisClient, times(5)).getRecords(any(GetRecordsRequest.class));
         assertThat(shardIterator.getId(), is("nextIteratorId"));
-
     }
 
     @Test(expected = RuntimeException.class)
