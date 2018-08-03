@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/henningstrueber2001/synapse.svg?branch=master)](https://travis-ci.com/henningstrueber2001/synapse)
+
 # OTTO Synapse
 A library to implement event-sourcing microservices.
 
